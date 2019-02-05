@@ -1,0 +1,19 @@
+[target] {
+    border: 1px dotted black;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited {
+color: red;
+}
+
+a:hover {
+color: green;
+}
+
+a:active {
+color: orange;
+}
