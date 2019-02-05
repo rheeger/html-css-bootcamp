@@ -1,0 +1,14 @@
+html {
+    font-family: 'Merriweather', sans-serif;
+    
+}
+
+h1 {
+    font-weight: 700;
+    font-style: italic
+}
+
+p {
+    font-weight: 300;
+    text-transform: uppercase;
+}

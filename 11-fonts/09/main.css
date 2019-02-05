@@ -1,0 +1,23 @@
+html {
+    font-family: 'Merriweather', sans-serif;
+    
+}
+
+h1 {
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 1rem;
+    text-shadow: 10px 10px 10px blue;
+
+}
+
+p {
+    font-weight: 300;
+    text-transform: uppercase;
+    word-spacing: 3rem;
+    text-indent: 1rem;
+}
+
+a {
+    text-decoration: line-through;
+}
