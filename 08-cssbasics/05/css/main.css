@@ -1,0 +1,10 @@
+div {
+    width: 200px;
+    height: 100px;
+    background-image: url("../../../07-htmlbasics/06/img/dog_2988868_1920.0.jpg");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    border: 20px groove;
+}
+
