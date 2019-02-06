@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+div1, div2, div3, div4, div5, div6, div7 {
+    border: 1px solid black;
+    width: 100%;
+    background-image: url("../../07-htmlbasics/05/img/dog_2988868_1920.0.jpg");
+    min-height: 150px;
+    background-size: cover;
+
+}

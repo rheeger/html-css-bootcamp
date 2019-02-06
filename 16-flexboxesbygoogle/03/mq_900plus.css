@@ -1,0 +1,12 @@
+div1, div2, div3, div4, div5 {
+    width: 10%
+}
+
+div6 {
+    order: -1
+
+}
+
+div7 {
+    order: -2
+}
