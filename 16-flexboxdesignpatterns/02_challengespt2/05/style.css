@@ -1,0 +1,7 @@
+header, article, aside, footer {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+    background-color: rgb(219, 212, 143);
+}

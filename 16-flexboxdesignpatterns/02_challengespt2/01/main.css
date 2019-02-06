@@ -1,0 +1,27 @@
+html, body, ul, li {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+
+}
+
+ul{
+    display: flex;
+    flex-flow: column nowrap;
+    list-style: none;
+}
+
+li {
+    color: white;
+    padding: 1em;
+    background-color: skyblue;
+    text-align: center;
+    display: block;
+    border-top: 1px solid whitesmoke;
+    border-bottom: none;
+}
+
+li:hover {
+    background-color: dodgerblue
+}

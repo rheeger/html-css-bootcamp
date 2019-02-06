@@ -1,0 +1,26 @@
+html, body, ul, li, p {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+ul {
+    width: 100%;
+    border: 3px solid red;
+}
+
+li {
+    padding: 1em;
+    display: inline-block;
+}
+
+p {
+    padding: 1em;
+    width: 100%;
+    border: 3px solid red;
+}

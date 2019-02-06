@@ -1,0 +1,25 @@
+body {
+   max-width: 700px;
+   margin: 0 auto;
+}
+
+aside {
+    width: 15%
+}
+
+.one {
+    order: 1
+}
+
+article {
+    order: 2;
+    width: 70%
+}
+
+.two {
+    order: 3
+}
+
+footer {
+    order: 4
+}
