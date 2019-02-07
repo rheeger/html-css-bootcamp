@@ -12,21 +12,29 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-sizing: border-box
+   
 
 }
 
-header > div {
+header div, header nav {
+    padding: .2rem;
     margin: 1rem;
-    padding: .2rem
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
 
+}
+
+header div:hover, svg:hover{
+    color: limegreen
 }
 
 .dt_icon {
-    width: 1rem;
-    height: 1rem;
-    stroke: white;
-    fill: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: .5rem;
+    fill: currentColor;
 }
 
 #idx-atf {
@@ -85,10 +93,10 @@ h3 {
 }
 
 button {
-    color: rgb(202, 250, 234);
+    color: limegreen;
     font-size: 1.4rem;
     font-weight: 700;
-    border: 1px solid rgb(202, 250, 234);
+    border: 1px solid limegreen;
     padding: .7rem 1.2rem;
     border-radius: 3px;
 }
