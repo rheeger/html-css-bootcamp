@@ -1,0 +1,27 @@
+html, body, div, footer {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    border: 1px solid orangered;
+    background-color: orange;
+    height: 50px; 
+    width: 100vw;
+}
+
+footer:nth-child(2){
+    float: left;
+    width: 50vw;
+}
+
+footer:nth-child(3){
+    float:right;
+    width: 50vw;
+}
+
+footer:nth-child(4){
+    clear: both
+}
