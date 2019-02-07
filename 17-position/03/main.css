@@ -1,0 +1,26 @@
+html, body, div, footer {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+div {
+    position: relative;
+    height: 400px;
+    border: 5px solid orangered;
+    background-color: orange;
+    width: 400px;
+    
+}
+
+#absolute {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 100px;
+    left: 10px;
+    border: 5px solid hotpink;
+    background-color: pink;
+
+}

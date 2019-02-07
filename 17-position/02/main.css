@@ -1,0 +1,25 @@
+html, body, div, footer {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 5px solid black;
+    margin: 0 3em;
+}
+
+div {
+    height: 200px;
+    border: 5px solid orangered;
+    background-color: orange;
+    width: 200px;
+    margin: 0 auto;
+}
+
+div:nth-child(2) {
+    position: relative;
+    top: 20px;
+    left: 50px;
+}

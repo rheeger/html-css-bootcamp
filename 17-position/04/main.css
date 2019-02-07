@@ -1,0 +1,24 @@
+html, body, div, footer {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#one {
+    position: absolute;
+    left: 250px;
+    height: 400px;
+    width: 150px;
+    border: 1px solid red;
+
+}
+
+#two {
+    position: relative;
+    left: 400px;
+    height: 400px;
+    width: 550px;
+    border: 1px solid black;
+
+}

@@ -1,0 +1,16 @@
+html, body, div, footer {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    border: 1px solid orangered;
+    background-color: orange;
+    height: 50px; 
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+
+}
