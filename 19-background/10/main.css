@@ -1,0 +1,12 @@
+div {
+    width: 500px;
+    height: 500px;
+    border: 10px ridge yellow;
+    background-image: url("01.png");
+    background-color: blue;
+    background-origin: content-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 3rem;
+    color: white; 
+}

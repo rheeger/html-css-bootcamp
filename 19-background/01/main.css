@@ -1,0 +1,12 @@
+html {
+    background-color: red;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 10rem;
+    color: white;
+    text-align: center;
+}
