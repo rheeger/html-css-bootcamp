@@ -16,25 +16,26 @@ header {
 
 }
 
-header div, header nav {
+header div, a {
     padding: .2rem;
     margin: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80%;
+    height:100%;
+    margin: 0 auto;
+}
 
+header nav {
+    display: none;
 }
 
 header div:hover, svg:hover{
-    color: limegreen
+    color: limegreen;
 }
 
 .dt_icon {
-    width: 1.5rem;
-    height: 1.5rem;
-    margin: .5rem;
-    fill: currentColor;
+    display: none;
 }
 
 #idx-atf {
@@ -77,16 +78,18 @@ header div:hover, svg:hover{
 h1 {
     font-size: 2rem;
     text-align: center;
+    margin: 0 1rem;
 }
 
 h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 700;
     text-align: center;
+    margin: 0 1rem;
 }
 
 h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
     margin-top: .8rem;
     line-height: 1.2;
@@ -94,9 +97,10 @@ h3 {
 
 button {
     color: limegreen;
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 700;
     border: 1px solid limegreen;
     padding: .7rem 1.2rem;
     border-radius: 3px;
+    margin-bottom: 10rem;
 }
