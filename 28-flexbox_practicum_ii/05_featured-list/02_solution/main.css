@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+section {
+    width: 80%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightblue;
+    border-radius: 50px;
+}
+
+div{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.middle {
+    border-top: 1px solid lightblue;
+    border-bottom: 1px solid lightblue;
+    margin: 0;
+    padding: 1rem;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 2rem;
+    margin: 1rem;
+    color: lightgray;
+}
+
+.ph_icon {
+    fill:lightblue;
+    stroke: lightblue;
+    height: 10rem;
+    margin: 1rem;
+
+}

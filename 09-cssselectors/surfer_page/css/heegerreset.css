@@ -34,7 +34,35 @@ a {
 button {
     cursor: pointer;
     background-color: transparent;
+    align-items: 0;
+    text-align: 0;
+    cursor: 0;
+    color: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-style: 0;
+    border-right-style: 0;
+    border-bottom-style: 0;
+    border-left-style: 0;
+    border-top-color:0;
+    border-right-color: 0;
+    border-bottom-color: 0;
+    border-left-color: 0;
+    border-image-source: 0;
+    border-image-slice: 0;
+    border-image-width: 0;
+    border-image-outset: 0;
+    border-image-repeat: 0;
+    background-color: 0;
+    box-sizing: 0;
 }
+
 
 blockquote, q {
     /* no quotes */

@@ -1,0 +1,57 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.spinner {
+    fill: dodgerblue;
+    font-size: 8rem;
+    margin: -15rem 0 1rem 0;
+    animation-name: spinner;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes spinner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+h1,h2,a {
+    text-align: center;
+    margin: 2rem 0 0 0;
+    color: gray;
+}
+
+h1 {
+    font-size: 4rem;
+
+}
+h2 {
+    font-size: 2rem;
+
+}
+a {
+    font-size: 1.5rem;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 5rem;
+}
+
+a:hover {
+    background-color: aquamarine;
+    color: gray;
+}
