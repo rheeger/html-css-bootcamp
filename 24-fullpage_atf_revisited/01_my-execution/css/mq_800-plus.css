@@ -3,7 +3,7 @@
 }
 
 #idx-atf > div {
-    height: 18vh;
+    height: 50vh;
 }
 
 h1 {
@@ -38,9 +38,24 @@ header {
 }
 
 
-.dt_icon {
+.dt_icon, .dt_icon_main {
+    display: inline-block;
     width: 1.5rem;
     height: 1.5rem;
     margin: .5rem;
     fill: currentColor;
+}
+
+h1, .idx_center_center, button {
+    margin: 2rem
+
+}
+
+button {
+    margin-bottom: 1rem;
+    padding: .5rem .5rem;
+}
+
+#mobilenav {
+    display: none
 }
