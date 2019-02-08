@@ -1,0 +1,39 @@
+html, body, div, a, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Cantarell", sans-serif
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+div {
+    height: 10vh;
+    width: 75vh;
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-grow: 1;
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover {
+    background-color: lightblue;
+    border-bottom: 2px solid dodgerblue;
+}

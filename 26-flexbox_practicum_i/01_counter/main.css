@@ -1,0 +1,49 @@
+html, body, div, a, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Cantarell", sans-serif
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+div {
+    height: 10vh;
+    width: 50vh;
+    display: flex;
+    background-color: whitesmoke;
+    border: 3px solid dodgerblue;
+    border-radius: 10px;
+}
+
+p, a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 3rem;
+    text-align: center;
+    width: 33.33%;
+    text-decoration: none;
+    color: black;
+
+}
+
+p {
+    background-color: white;
+    border-left: 2px dashed dodgerblue;
+    border-right: 2px dashed dodgerblue;
+    font-weight: 700;
+    
+}
+
+a:hover {
+    background-color: lightblue;
+    font-weight: 700;
+}
