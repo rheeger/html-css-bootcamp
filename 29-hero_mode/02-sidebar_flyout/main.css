@@ -1,0 +1,56 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'EB Garamond', serif;
+    background-color: whitesmoke
+}
+
+section {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    
+    font-weight: 400;
+    font-size: 5rem;
+    margin: -12rem 2rem 2rem 2rem;
+    text-align: center;
+}
+input {
+    display: none
+}
+
+#button {
+    font-weight: 400;
+    font-style: italic;
+    padding: .5rem;
+}
+
+#button:hover, li:hover {
+    text-decoration: underline;
+}
+
+#sidebar {
+    visibility: hidden;
+    opacity: 0; 
+    margin:.5rem;
+    font-style: italic;
+    padding: 1rem;
+    text-align: center;
+    transition: visibility 0s, opacity 0.4s linear;
+}
+
+input[type="checkbox"]:checked ~ #sidebar {
+    visibility: visible;
+    opacity: 1;
+}
+
+li {
+    margin: .1rem;
+    padding: .1rem;
+}
